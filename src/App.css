@@ -1,3 +1,47 @@
 .App {
   text-align: center;
 }
+
+body{
+  background-image: url("https://www.whatspaper.com/wp-content/uploads/2021/08/hd-galaxy-wallpaper-whatspaper-1.jpg");
+}
+
+.title{
+  text-align: center;
+  color:silver;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.planets{
+  display: flex;
+  align-content: space-around;
+}
+
+img{
+  width: 160px;
+  height: auto;
+}
+
+img:hover{
+  width: 180px;
+  opacity: 1.0;
+}
+
+.teste-Mission{
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.card-missions {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: silver;
+  opacity: 0.6;
+  width: 200px;
+  height: 210px;
+  border-radius: 5%;
+}
